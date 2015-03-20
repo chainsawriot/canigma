@@ -31,4 +31,4 @@ findSub <- function(char, conn) {
     }
     return(x)
 }
-paste0(sapply(strsplit("雨傘革命開始便沒有去跳舞然後一直懶到上個月條牛仔褲窄到乜的起心肝去做運動", split = "")[[1]], findSub, conn = conn), collapse = "")
+paste0(sapply(strsplit("廣東話謎碼機", split = "")[[1]], findSub, conn = conn), collapse = "")
